@@ -1,0 +1,105 @@
+*{
+	box-sizing:border-box;
+	z-index:1;
+	margin:0;
+	-o-transition:.15s;
+  	-ms-transition:.15s;
+  	-moz-transition:.15s;
+  	-webkit-transition:.15s;
+}
+
+html,body{
+	/*text-shadow:0.5px 0.5px black;*/
+	margin:0;
+}
+
+
+nav{
+	padding:20px;
+}
+
+h1,h2,h3,h4,h5{
+	margin:0;
+}
+
+.hollow-btn{
+	padding-left:20px;
+	padding-right:20px;	
+	font-size:16px;
+	background:none;
+	border:solid white 5px;
+	color:white;
+	font-weight:500;
+	font-family:'Roboto';
+	border-radius:none;
+	box-shadow:none;
+	float:right;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	opacity:0.7;
+}
+
+.hollow-btn:hover{
+	background:white;
+	color:#EC9A1A;
+	opacity:1;
+}
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}
+
+.logo{
+	height:75px;
+	width:100px;
+}
+
+.logo-tagline{
+	max-width:400px;
+}
+
+#side-nav{
+	padding-left:30px;
+	width:30%;
+	height:80vh;
+}
+
+#side-nav a{
+	font-size:4vh;
+	float:left;
+	clear:left;
+	margin:20px;
+	text-decoration:none;
+	font-family:'avenir';
+	color:white;
+	border-left:solid rgba(255,255,255,0) 2px;
+	opacity:0.5;
+	padding:5px;
+}
+
+#side-nav a:hover{
+	color:#EB7B07;
+	opacity:1;
+	border-left:solid #EB7B07 5px;
+}
+
+@font-face{
+	font-family:avenir;
+	src: url(../fonts/avenirxltpro.OTF);
+}
+
