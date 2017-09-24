@@ -8,14 +8,41 @@
   	-webkit-transition:.15s;
 }
 
-html,body{
+html{
 	/*text-shadow:0.5px 0.5px black;*/
+	margin:0;
+	background-color: rgb(0,0,0);
+}
+
+body{
 	margin:0;
 }
 
-
 nav{
 	padding:20px;
+	width:100vw;
+	display: inline-block;
+    vertical-align: middle;
+}
+
+#home-nav{
+	position:fixed;
+}
+
+nav a{
+	height:75px;
+	float-left;
+	margin:30px;
+	text-decoration:none;
+	color:white;
+	font-size:3vh;
+	font-family:'avenir';
+	padding:20px;
+}
+
+nav a:hover{
+	color:#EB7B07;
+	opacity:1;
 }
 
 h1,h2,h3,h4,h5{
@@ -65,11 +92,15 @@ video#bgvid {
 }
 
 .logo{
+	display: inline-block;
+    vertical-align: middle;
 	height:75px;
 	width:75px;
 }
 
 .logo-tagline{
+	display: inline-block;
+    vertical-align: middle;
 	max-width:400px;
 }
 
@@ -85,7 +116,7 @@ video#bgvid {
 	clear:left;
 	margin:20px;
 	text-decoration:none;
-	font-family:'avenir';
+	font-family:'avenir', Segoe;
 	color:white;
 	border-left:solid rgba(255,255,255,0) 2px;
 	opacity:0.5;
@@ -97,6 +128,54 @@ video#bgvid {
 	opacity:1;
 	border-left:solid #EB7B07 5px;
 }
+
+
+
+/* Home CSS */
+
+#feature-div{
+	height:100vh;
+	width:100vw;
+	background: url(../images/van.png);
+	background-size:cover;
+	padding:10%;
+}
+
+.feature-info{
+	position:relative;
+}
+
+.feature-info a{
+	text-decoration:none;
+	color:white;
+	padding:10px;
+	margin-top:20px;
+	display:inline-block;
+	font-family:'avenir';
+	font-weight:bolder;
+	background: #EB7B07;
+}
+
+#featured-films{
+	height:50vh;
+	width:100vw;
+	padding-left:5%;
+	padding-right:5%;
+	margin-top:-5%;
+	text-align:center;
+}
+
+.movie-tile{
+	display:inline-block;
+	max-width:24%;
+
+}
+.movie-tile img{
+	max-width:100%;
+}
+
+
+
 
 @font-face{
 	font-family:avenir;
