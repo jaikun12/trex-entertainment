@@ -25,6 +25,10 @@ nav{
     vertical-align: middle;
 }
 
+a{
+	text-decoration:none;
+}
+
 #home-nav{
 	position:fixed;
 }
@@ -161,19 +165,51 @@ video#bgvid {
 	width:100vw;
 	padding-left:5%;
 	padding-right:5%;
-	margin-top:-5%;
+	margin-top:-10%;
 	text-align:center;
+}
+
+#featured-films h3{
+	text-align:left;
+	color:white;
+	font-family:'avenir';
+	margin:20px;
+	font-size:4vh;
 }
 
 .movie-tile{
 	display:inline-block;
 	max-width:24%;
+	position:relative;
+	vertical-align:middle;
 
 }
 .movie-tile img{
 	max-width:100%;
 }
 
+.movie-tile a{
+	float:left;
+	z-index:1;
+	text-decoration:none;
+	display:inline-block;
+	color:white;
+	padding:10px;
+	margin-top:20px;
+	position:absolute;
+	bottom:0%;
+	left:0%;
+	width:100%;
+	font-family:'avenir';
+	font-weight:bolder;
+	background:#EB7B07;
+	/*border:solid #EB7B07 2px;*/
+	opacity:0;
+}
+
+.movie-tile:hover a{
+	opacity:1;
+}
 
 
 
