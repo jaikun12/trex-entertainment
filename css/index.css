@@ -43,7 +43,7 @@ nav a{
 	text-decoration:none;
 	color:white;
 	font-size:2vh;
-	font-family:'avenir', 'Open Sans';
+	font-family:'avenir', 'Open Sans', sans-serif;
 	padding:20px;
 }
 
@@ -123,7 +123,7 @@ video#bgvid {
 	clear:left;
 	margin:20px;
 	text-decoration:none;
-	font-family:'avenir', 'Open Sans';
+	font-family:'avenir', 'Open Sans', sans-serif;
 	color:#EB7B07;
 	border-left:solid rgba(255,255,255,0) 2px;
 	opacity:0.5;
@@ -153,13 +153,13 @@ video#bgvid {
 
 .feature-info h1{
 	color:white;
-	font-family:'avenir', 'Open Sans';
+	font-family:'avenir', 'Open Sans', sans-serif;
 }
 
 .feature-info p{
 	max-width:40%;
 	color:white;
-	font-family:'avenir', 'Open Sans';
+	font-family:'avenir', 'Open Sans', sans-serif;
 }
 
 .feature-info a{
@@ -186,7 +186,7 @@ video#bgvid {
 #featured-films h3{
 	text-align:left;
 	color:white;
-	font-family:'avenir', 'Open Sans';
+	font-family:'avenir', 'Open Sans', sans-serif;
 	margin:20px;
 	font-size:4vh;
 }
@@ -213,7 +213,7 @@ video#bgvid {
 	bottom:0%;
 	left:0%;
 	width:100%;
-	font-family:'avenir', 'Open Sans';
+	font-family:'avenir', 'Open Sans', sans-serif;
 	font-weight:bolder;
 	background:#EB7B07;
 	/*border:solid #EB7B07 2px;*/
@@ -229,7 +229,7 @@ footer{
 	background-color:#363B4F;
 	padding:25px;
 	padding-left:10%;
-	font-family:'avenir', 'Open Sans';
+	font-family:'avenir', 'Open Sans', sans-serif;
 	color:white;
 }
 
