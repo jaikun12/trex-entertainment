@@ -3,6 +3,8 @@
 	<head>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand|Roboto" rel="stylesheet"> 
 		<link type="text/css" rel="stylesheet" href="css/index.css">
+		<link type="text/css" rel="stylesheet" href="css/font-awesome.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.25"/>
 	</head>
 	<body>
 		<nav id="home-nav">
@@ -16,7 +18,8 @@
 		<div id="feature-div">
 			<div class="feature-info">
 				<h1>Patay na si Hesus</h1>
-				<h2>Lorem ipusim dolor si amet.</h2>
+				<p>One unplanned detour comes after another, each pushing this family closer to confronting the past and figuring out how to enjoy the ride to an uncertain future.
+				</p>
 				<a href="https://www.youtube.com/watch?v=ZH3beK-a6rE" target="_blank">WATCH TRAILER</a>
 			</div>
 		</div>
@@ -25,25 +28,63 @@
 			<a class="header-link" href="movies.html"><h3>Films</h3></a>
 			<div class="movie-tile">
 				<img src="images/posters/baler.jpg">
-				<a href="https://www.youtube.com/watch?v=cYycMTTsPXc" target="_blank">WATCH TRAILER</a>
+				<a href="#" target="_blank">KNOW MORE</a>
 			</div>
 
 			<div class="movie-tile">
 				<img src="images/posters/hermano.jpg">
-				<a href="https://www.youtube.com/watch?v=-q0ZMqvzfp4" target="_blank">WATCH TRAILER</a>
+				<a href="#" target="_blank">KNOW MORE</a>
 			</div>
 
 			<div id="hesus" class="movie-tile">
 				<img src="images/posters/hesus.jpg">
-				<a href="https://www.youtube.com/watch?v=ZH3beK-a6rE" target="_blank">WATCH TRAILER</a>
+				<a href="#" target="_blank">KNOW MORE</a>
 			</div>
 
 			<div id="hesus" class="movie-tile">
 				<img src="images/posters/hesus.jpg">
-				<a href="https://www.youtube.com/watch?v=ZH3beK-a6rE" target="_blank">WATCH TRAILER</a>
+				<a href="#" target="_blank">KNOW MORE</a>
 			</div>
 		</div>
+
+		<footer>
+			<div id="contact-div">
+				<h3>Contact Us</h3>
+				<p><i class="fa fa-envelope-o" aria-hidden="true"></i> info@trexentertainment.com</p>
+				<p><i class="fa fa-building" aria-hidden="true"></i> Unit 17, Golden Victoria Building, Tomas Morato Ave. corner Scout Limbaga St., Brgy. Laging Handa, Quezon City</p>
+			</div>
+			<div id="social-media">
+				<h3>Social Media</h3>
+				<a href="https://www.facebook.com/trexent" target="_blank">
+					<i class="fa fa-facebook-square" aria-hidden="true"></i>
+				</a>
+				<a href="https://twitter.com/TRex_EntProd" target="_blank">
+					<i class="fa fa-twitter-square" aria-hidden="true"></i>
+				</a>
+				<a href="https://www.instagram.com/trexent_prod/" target="_blank">
+					<i class="fa fa-instagram" aria-hidden="true"></i>
+				</a>
+				<a href="https://www.youtube.com/channel/UCT89SrtJ8NKvamjNOF23-Gg" target="_blank">
+					<i class="fa fa-youtube-play" aria-hidden="true"></i>
+				</a>
+			</div>
+		</footer>
 		<script src="bootstrap.min.js"></script>
 		<script src="js/jquery-2.2.0.min.js"></script>
+		<script>
+
+		window.onscroll = function() {myFunction()};
+
+		function myFunction() {
+    		if (document.body.scrollTop > 100) {
+        	document.getElementById("home-nav").style.background="rgba(55,55,55,0.9)";
+    		}
+    		else{
+    		document.getElementById("home-nav").style.background="none";
+    		}
+		}
+
+		</script>
+		
 	</body>
 </html>
