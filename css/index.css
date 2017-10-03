@@ -226,7 +226,7 @@ video#bgvid {
 
 footer{
 	height:40vh;
-	background-color:#363B4F;
+	background-color:rgb(55,55,55);
 	padding:25px;
 	padding-left:10%;
 	font-family:'avenir', 'Open Sans', sans-serif;
@@ -271,7 +271,9 @@ footer p{
 	text-decoration:none;
 }
 
-
+.changeBG{
+	background:rgba(55,55,55,0.9);
+}
 
 
 
