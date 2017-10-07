@@ -308,6 +308,9 @@ footer p{
 		background:rgba(55,55,55,0.7);
 	}
 
+	.feature-info p{
+		max-width:80%;
+	}
 
 	#featured-films{
 		width:80%;
