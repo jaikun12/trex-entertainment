@@ -18,5 +18,6 @@ html{
 	background-size:100%;
 	background-repeat:no-repeat;
 	overflow-x:hidden;
+	-webkit-background-size: 100%;
 }
 }
