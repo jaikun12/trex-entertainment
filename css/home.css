@@ -13,9 +13,9 @@ html{
 @media only screen and (max-width: 768px){
 	html{
 	margin:0;
-	background: url(../images/dedma.jpg);
+	background: url(../images/dedma-mobile.jpg);
 	background-attachment:fixed;
-	background-size:100% 100%;
+	background-size:cover;
 	background-repeat:no-repeat;
 	overflow-x:hidden;
 }
