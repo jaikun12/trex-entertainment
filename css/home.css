@@ -2,7 +2,8 @@ html{
 	margin:0;
 	background: url(../images/dedma.jpg);
 	background-attachment:fixed;
-	background-size:cover;
+	background-size:contain;
+	background-repeat:no-repeat;
 	overflow-x:hidden;
 }
 
