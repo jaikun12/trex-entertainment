@@ -1,0 +1,7 @@
+html{
+	margin:0;
+	background: url(../images/dedma.jpg);
+	background-attachment:fixed;
+	background-size:cover;
+	overflow-x:hidden;
+}

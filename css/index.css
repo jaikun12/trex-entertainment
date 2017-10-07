@@ -10,10 +10,8 @@
 
 html{
 	margin:0;
-	background: url(../images/van.png);
-	background-attachment:fixed;
-	background-size:cover;
 	overflow-x:hidden;
+	background:#403E45;
 }
 
 body{
@@ -34,6 +32,8 @@ a{
 
 #home-nav{
 	position:fixed;
+	top:0;
+	left:0;
 }
 
 nav a{
@@ -102,7 +102,7 @@ video#bgvid {
 	display: inline-block;
     vertical-align: middle;
 	height:30px;
-	width:30px;
+	
 }
 
 .logo-tagline{
@@ -263,7 +263,8 @@ footer p{
 }
 
 #social-media i{
-	margin:10px;
+	margin-left:10px;
+	margin-right:10px;
 }
 
 #social-media a{
@@ -273,6 +274,63 @@ footer p{
 
 .changeBG{
 	background:rgba(55,55,55,0.9);
+}
+
+.filler{
+	height:15vh;
+}
+
+#film-gallery{
+	width:80%;
+	margin:0 auto;
+	padding-top:5%;
+	padding-bottom:5%;
+}
+
+@media only screen and (max-width: 768px){
+
+	nav{
+		width:100%;
+	}
+	nav a{
+	height:50px;
+	margin:5px;
+	text-decoration:none;
+	color:white;
+	font-size:1vh;
+	font-family:'avenir', 'Open Sans', sans-serif;
+	padding:10px;
+}
+
+	#home-nav{
+		position:relative;
+		display:block;
+		background:rgba(55,55,55,0.7);
+	}
+
+
+	#featured-films{
+		width:80%;
+		margin:0 auto;
+	}
+
+	#featured-films h3{
+		text-align:center;
+	}
+
+	.movie-tile{
+		max-width:100%;
+	}
+	footer{
+		height:60vh;
+	}
+
+	#social-media{
+		position:relative;
+		font-size:5vh;
+		padding:5px;
+	}
+
 }
 
 

@@ -1,0 +1,11 @@
+html{
+	margin:0;
+	background: url(../images/dedma.jpg);
+	background-attachment:fixed;
+	background-size:cover;
+	overflow-x:hidden;
+}
+
+.dim{
+	background:rgba(55,55,55,0.7);
+}
