@@ -1,12 +1,12 @@
 html{
 	margin:0;
-	background:white;
+	background:none;
 	overflow-x:hidden;
 	font-family:'avenir', 'Open Sans', sans-serif;
 }
 
-.dim{
-	background:rgba(55,55,55,0.7);
+#home-nav{
+	position:fixed;
 }
 
 #call-to-action{
@@ -22,7 +22,7 @@ html{
 #call-to-action img{
 	position:relative;
 	display:inline-block;
-	width:400px;
+	width:300px;
 }
 
 #about-body{
@@ -55,11 +55,39 @@ html{
 @media only screen and (max-width: 768px){
 	html{
 	margin:0;
-	background: url(../images/dedma-mobile.jpg);
-	background-attachment:fixed;
-	background-size:100%;
-	background-repeat:no-repeat;
 	overflow-x:hidden;
-	-webkit-background-size: 100%;
-}
+	}
+	#call-to-action{
+	height:100vh;
+	width:100%;
+	background: url(../images/calltoaction.jpg);
+	background-size:cover;
+	padding:100px;
+	text-align:center;
+	vertical-align:middle;
+	}
+
+	#call-to-action img{
+	position:relative;
+	display:inline-block;
+	width:175px;
+	}
+
+	#about-body{
+	width:100%;
+	margin:0 auto;
+	background:white;
+	padding:50px;
+	}
+
+	.sub-heading{
+	font-size:2.5vh;
+	max-width:100%;
+	color:white;
+	display:none;
+	}
+
+	footer{
+		width:100%;
+	}
 }
