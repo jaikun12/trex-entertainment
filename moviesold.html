@@ -3,37 +3,29 @@
 	<head>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand|Roboto" rel="stylesheet"> 
 		<link type="text/css" rel="stylesheet" href="css/index.css">
-		<link type="text/css" rel="stylesheet" href="css/home.css">
+		<link type="text/css" rel="stylesheet" href="css/movies.css">
 		<link type="text/css" rel="stylesheet" href="css/font-awesome.css">
-		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.00"/>
 		<link rel="icon" type="image/png" href="images/trex-emblem.png">
 		<title>Trex-Entertainment</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	</head>
 	<body>
 		<nav id="home-nav">
-			<img class="logo" src="images/trex-worldmark.png">
-			<div class="menu">
+			<img class="logo" src="images/trex-emblem.png">
 			<a href="home.html">Home</a>
 			<a href="movies.html">Movies</a>
 			<a href="talents.html">Talents</a>
-			</div>
+			<a href="aboutus.html">About Us</a>
 		</nav>
 
-		<div id="feature-div" class="dim">
-			<div class="feature-info">
-				<h1>Dedma Walking</h1>
-				<p>A Palanca-winning comedy about gay best friends for life John (Joross Gamboa) and Mark (Edgar Allan Guzman) whose friendship is put to the test when one of them has a terminal illness and asks the other to help him stage his fake death, wake, and funeral as his dying wish. The result is a laughfest of "deadly" proportions.
-
-				</p>
-				<a href="https://www.youtube.com/watch?v=ZH3beK-a6rE" target="_blank">WATCH TRAILER</a>
-			</div>
+		<div class="filler">
 		</div>
 
-		<div id="featured-films">
-			<a class="header-link" href="movies.html"><h3>Films</h3></a>
+		<div id="film-gallery">
+			<h3>Films</h3>
 			<div class="movie-tile">
-				<img src="images/posters/dedma.jpg">
+				<img src="images/posters/baler.jpg">
 				<a href="#" target="_blank">KNOW MORE</a>
 			</div>
 
@@ -48,9 +40,15 @@
 			</div>
 
 			<div id="hesus" class="movie-tile">
-				<img src="images/posters/baler.jpg">
+				<img src="images/posters/dedma.jpg">
 				<a href="#" target="_blank">KNOW MORE</a>
 			</div>
+			<div class="movie-tile">
+				<img src="images/posters/esoterika.jpg">
+				<a href="#" target="_blank">KNOW MORE</a>
+			</div>
+
+
 		</div>
 
 		<footer>
@@ -73,6 +71,8 @@
 				<a href="https://www.youtube.com/channel/UCT89SrtJ8NKvamjNOF23-Gg" target="_blank">
 					<i class="fa fa-youtube-play" aria-hidden="true"></i>
 				</a>
+
+
 			</div>
 		</footer>
 		<script>
@@ -80,11 +80,9 @@
    			$(window).scroll(function () {
     			  if ($(this).scrollTop() > 50) {
      		      $('#home-nav').addClass('changeBG')
-     		      $('#feature-div').removeClass('dim')
       		}
       	if ($(this).scrollTop() < 50) {
         	 $('#home-nav').removeClass('changeBG')
-        	 $('#feature-div').addClass('dim')
       			}
    			});
 		});

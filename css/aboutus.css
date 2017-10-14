@@ -1,0 +1,65 @@
+html{
+	margin:0;
+	background:white;
+	overflow-x:hidden;
+	font-family:'avenir', 'Open Sans', sans-serif;
+}
+
+.dim{
+	background:rgba(55,55,55,0.7);
+}
+
+#call-to-action{
+	height:100vh;
+	width:100%;
+	background: url(../images/calltoaction.jpg);
+	background-size:cover;
+	padding:100px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+#call-to-action img{
+	position:relative;
+	display:inline-block;
+	width:400px;
+}
+
+#about-body{
+	width:70%;
+	margin:0 auto;
+	background:white;
+	padding:50px;
+}
+
+#about-body h3{
+	margin-bottom:50px;
+}
+
+#about-body p{
+	margin-bottom:25px;
+}
+
+
+
+.sub-heading{
+	font-size:3.5vh;
+	color:white;
+	
+}
+
+
+
+
+
+@media only screen and (max-width: 768px){
+	html{
+	margin:0;
+	background: url(../images/dedma-mobile.jpg);
+	background-attachment:fixed;
+	background-size:100%;
+	background-repeat:no-repeat;
+	overflow-x:hidden;
+	-webkit-background-size: 100%;
+}
+}

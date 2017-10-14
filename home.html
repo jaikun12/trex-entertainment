@@ -3,7 +3,7 @@
 	<head>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand|Roboto" rel="stylesheet"> 
 		<link type="text/css" rel="stylesheet" href="css/index.css">
-		<link type="text/css" rel="stylesheet" href="css/home.css">
+		<link type="text/css" rel="stylesheet" href="css/aboutus.css">
 		<link type="text/css" rel="stylesheet" href="css/font-awesome.css">
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
 		<link rel="icon" type="image/png" href="images/trex-emblem.png">
@@ -17,42 +17,54 @@
 			<a href="home.html">Home</a>
 			<a href="movies.html">Movies</a>
 			<a href="talents.html">Talents</a>
-			<a href="aboutus.html">About Us</a>
 			</div>
 		</nav>
 
-		<div id="feature-div" class="dim">
-			<div class="feature-info">
-				<h1>Dedma Walking</h1>
-				<p>A Palanca-winning comedy about gay best friends for life John (Joross Gamboa) and Mark (Edgar Allan Guzman) whose friendship is put to the test when one of them has a terminal illness and asks the other to help him stage his fake death, wake, and funeral as his dying wish. The result is a laughfest of "deadly" proportions.
-
-				</p>
-				<a href="https://www.youtube.com/watch?v=ZH3beK-a6rE" target="_blank">WATCH TRAILER</a>
-			</div>
+		<div id="call-to-action">
+			<img src="images/trex-3d-color.png">
+			<p class="sub-heading">Shaping consciousness, honing talents, and creating impactful body of work.</p>
 		</div>
 
-		<div id="featured-films">
-			<a class="header-link" href="movies.html"><h3>Films</h3></a>
-			<div class="movie-tile">
-				<img src="images/posters/dedma.jpg">
-				<a href="#" target="_blank">KNOW MORE</a>
-			</div>
+		<div id="about-body">
+			<h3>T-REX Entertainment Productions is an independent Filipino company committed to making
+				productions that matter.</h3>
 
-			<div class="movie-tile">
-				<img src="images/posters/hermano.jpg">
-				<a href="#" target="_blank">KNOW MORE</a>
-			</div>
+			<p>
+				We aspire to make films, music, and various entertainment media with original content that are
+				both commercially viable and of excellent quality; content that are created mostly by Filipino
+				talents. Our produced media seeks to treat its audience with respect by shaping consciousness,
+				honing talents, and by creating impactful body of work.</p>
 
-			<div id="hesus" class="movie-tile">
-				<img src="images/posters/hesus.jpg">
-				<a href="#" target="_blank">KNOW MORE</a>
-			</div>
+			<p>
+				We are looking forward for the responsibility in producing award-winning and top-grosser films,
+				and in creating a collection of relevant entertainment media. We will strive to build reputation
+				that centers on the passion and ingenuity of our creative industry.</p>
 
-			<div id="hesus" class="movie-tile">
-				<img src="images/posters/baler.jpg">
-				<a href="#" target="_blank">KNOW MORE</a>
-			</div>
+			<h3>Our History</h3>
+
+			<p>T-Rex Entertainment Productions began with restauranteur and businessman Rex Tiri in 2015.
+				Rex Tiri dared to dive into the unfamiliar waters of film in the first movie he produced,
+				Esoterika: Maynila by Elwood Perez.</p>
+			<p>
+				What first started as a risk became a growing dream for Rex Tiri. He decided to continue
+				producing films that show and support the artistry of filipino film making, through inspiring
+				stories.</p>
+
+			<p>
+				Inspired by the words and masterful storytelling of the late director Gil Portes, Rex Tiri
+				produced Ang Hapis at Himagsik ni Hermano Puli and Moonlight Over Baler. Since 2016, Rex Tiri
+				formed a team that would eventually become T-Rex Entertainment Productions.</p>
+
+			<p>
+				Starting 2017, more films from T-Rex Entertainment are being produced and promoted by its
+				honed creative team. Following the success of Patay Na Si Hesus in the box office, T-Rex
+				Entertainment continues to stay by its creed of producing films of sincerity and substance,
+				while being commercially profitable.</p>
 		</div>
+
+
+
+
 
 		<footer>
 			<div id="contact-div">
@@ -81,11 +93,9 @@
    			$(window).scroll(function () {
     			  if ($(this).scrollTop() > 50) {
      		      $('#home-nav').addClass('changeBG')
-     		      $('#feature-div').removeClass('dim')
       		}
       	if ($(this).scrollTop() < 50) {
         	 $('#home-nav').removeClass('changeBG')
-        	 $('#feature-div').addClass('dim')
       			}
    			});
 		});
