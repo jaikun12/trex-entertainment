@@ -15,7 +15,6 @@ html{
 	margin:0;
 	background: url(../images/dedma-mobile.jpg);
 	background-attachment:fixed;
-	background-size:100%;
 	background-repeat:no-repeat;
 	overflow-x:hidden;
 	-webkit-background-size: 100%;
