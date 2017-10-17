@@ -20,6 +20,7 @@ html{
 	#feature-div{
 	background: url(../images/dedma-mobile.jpg);
 	background-size:cover;
+	background-attachment:fixed;
 	background-repeat:no-repeat;
 	}
 }
